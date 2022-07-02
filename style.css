@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+ul{
+  list-style-type: none;  
+}
+a{
+    text-decoration: none;
+}
+.full-content{
+    overflow: hidden;
+    width: 100%;
+}
+.bg{
+    background-color:#fff;
+}
+.header-bg{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/lighting.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.88;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    overflow: hidden;
+}
+nav ul{
+    margin-top: 20px;
+}
+nav li{
+    display: inline-flex;
+    margin-right: 15px;
+}
+nav li a{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color:#fff ;
+    font-weight: bold;
+}
+.hotline{
+    display: inline-flex;
+    margin-top: 20px;
+}
+.hotline p{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    font-weight: 700
+}
+hr{
+    margin-top: 30px;
+    border:1px solid #E88501;
+}
+.mid-point-of-header{
+    width:100%; 
+    position: absolute;
+    top:300px;
+    text-align: center
+}
+.mid-point-of-header h1{
+    display: block;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #E88501;
+    font-weight: bold;
+}
+.mid-point-of-header p{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.mid-point-of-header button{
+    border: none;
+    font-size: 14px;
+    text-transform:capitalize;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    background: #4D4640;
+    padding: 13px 40px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.mid-point-of-header button:hover{
+    background: #F7AA36;
+}
+.content-wrapper{
+    overflow: hidden;
+    width: 89%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 1.5em;
+}
+.content-wrapper h2{
+    color: #4a4a4a;
+    margin-bottom: 20px;
+    font-family: 'roboto';
+    
+}
+.content-wrapper p{
+    color:#4a4a4a;
+    font-size: 16px;
+    font-family:' roboto';
+    margin-bottom: 150px;
+}
+.content-wrapper2{
+    overflow: hidden;
+    width: 76%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    justify-content:space-between;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin-bottom: 70px;
+}
+.menu{
+    width: 95%;
+    padding: 15px;
+    transition: 0.5s;;
+}
+.menu img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;;
+}
+.menu h3{
+    font-family: 'roboto';
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 10px;;
+}
+.menu p{
+    font-family: 'roboto';
+    font-size: 15.67px;
+    color: #4a4a4a;
+}
+.plane{
+    width: 100%;
+}
+.menu:hover{
+    transform: scale(1.1);
+}
+.content-wrapper3{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.content-wrapper3-bg{
+    background-color: #F7F7F7;
+}
+.heading-of-cw2{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    line-height: 3em;
+    margin-bottom: 50px;
+}
+.heading-of-cw2 h2{
+    display: block;
+    color: #4a4a4a;
+    font-family: 'roboto';
+    font-size: 50px;
+    font-weight: 400;
+}
+.heading-of-cw2 p{
+    display: block;
+    color: #4a4a4a; 
+    font-family: 'roboto';
+    font-size: 20px;   
+}
+.search{
+    width: 30%;
+    margin: 0 auto;
+}
+.search input{
+    border:none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.search i{
+    color: #B2B2B2;
+}
+.content-wrapper3{
+    overflow: hidden;
+    width: 100%;
+}
+.first-line-of-image{
+    display: flex;
+    justify-content: space-around;
+}
+.first-line-of-image .img-cw{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+}
+.second-line-of-image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.second-line-of-image .img-cw{
+    width: 400px;
+    height:500px;
+    margin: 10px;
+}
